@@ -44,7 +44,7 @@ function startRequest(pageUrl){
 	});
 }
 
-// 获取图片
+// 获取pageUrl的图片
 function savedImages($){
 	$("#bigImg").each(function(index,item){
 		var src = $(this).attr("src");
